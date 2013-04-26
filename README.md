@@ -2,7 +2,11 @@
 
 The missing Handlebars plugin for require.js I want to share with U.
 
-With tis simple plugin, U can include ur Handlebars templates using require.js. Like this:
+With tis simple plugin, U can include ur Handlebars templates using require.js. Also, if you use the require.js optimizer,
+youre templates will be precompiled for turbo performance. And you get to include multiple templates into 1 file, which
+is not the case with the command-line precompiler.
+
+Like this:
 
 ```js
 define(["hb!bacon-templates.html"], function (templates) {
